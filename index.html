@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1>Basic Calculator</h1>
+        <form>
+            Number1: <input type="text" id="Number1">
+            Number2: <input type="text>"id="Number2">
+                Math Operation: 
+                <select id="Operator">
+                    <option value="Sum">Sum</option>
+                    <option value="Substract">Substract</option>
+                    <option value="Divide">Divide</option>
+                    <option value="Multiply">Multiply</option>
+                </select>
+                <button type="button" onclick="Calculate()">Calculate</button>
+        </form>
+        <p>The Result is:</p>
+        <p id="Results"></p>
+    <script src="script.js"></script>
+    </body>
